@@ -8,8 +8,13 @@ dataset=Dataset(path_to_data=train_path)
 
 df=dataset.fetch_data()
 
-txt=df['Description'][1]
-kw_model=KeyBERT()
-kw=kw_model.extract_keywords(txt)
+# txt=df['Description'][1]
+# kw_model=KeyBERT()
+# kw=kw_model.extract_keywords(txt)
 
-print(kw)
+# print(kw)
+
+# print(list(df['Description']))
+
+# print('\n')
+
